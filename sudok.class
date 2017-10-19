@@ -6,6 +6,7 @@
 解题思路：
 用三个二维数组raw[][],line[][],cell[][]分别用来存储i行，j列，第k个子九宫格中数字num出现的次数
 对于一个正确的九宫格，三个二维数组中的每一个元素的值不会超过1；
+
 import java.util.Scanner;
 public class Sudoku {
 	static Boolean solution(char[][]board)
